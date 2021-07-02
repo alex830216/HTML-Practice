@@ -6,32 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-         /* 選取器0 */
-        h1{
-            background-color: #ff58;
+        #box {
+            color: pink;
         }
-        /* 選取器1 */
-        [class="info"]{
-            color: #f00;
-            background-color: #9999;
+        .AA {
+            color: blue ;
         }
-        /* 選取器2 */
-        .info2{
-            color: #0f0;
+        p {
+            color: #aaa !important;
         }
-        /* 選取器3，且後面蓋掉前面 */
-        p:first-of-type{
-            color: #00f;
+        p {
+            color: red ;
         }
     </style>
     <link rel = "stylesheet" type="text/css" href="style.css">
 </head>
 <body>
     <h1>title</h1>
-    <p class="info">
+    <p class="AA BB" id="box" style="color:yellow">
     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque minus dolorum culpa magnam cum suscipit sit blanditiis consequatur exercitationem officiis temporibus aliquid, consectetur quas debitis, reprehenderit possimus illo. Praesentium, eligendi?
     </p>
-    <p class="info2">
+    <p class="AA">
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga expedita eum distinctio quaerat, reprehenderit cumque officiis obcaecati quam deleniti saepe, explicabo ipsa perspiciatis at. Numquam, doloribus ullam! Consequatur, adipisci perferendis!
     </p>
     <p>
