@@ -55,7 +55,7 @@
 <body>
 <style>
         .wrap-top-bgc {
-            background-color: #def;
+            background-color: #fff;
         }
         .wrap {
             width: 1440px;
@@ -66,11 +66,20 @@
         .wrap .head {
             margin: 10px;
         }
+        .wrap .head a {
+            text-decoration: none;
+            color: #000;
+            font-weight: bold;
+        }
         .wrap .head2 {
             display: flex;
         }
         .wrap .head3 {
             margin: 10px;
+        }
+        .wrap .head3 a {
+            text-decoration: none;
+            color: #000;
         }
         .wrap img {
             width: 20px;
@@ -84,29 +93,29 @@
             </div>
             <div class="head2">
                 <div class="head3">
-                    <p>全方位培訓營</p>
+                    <a href="#">全方位培訓營</a>
                 </div>
                 <div class="head3">
-                    <p>Astro Camp</p>
+                    <a href="#">Astro Camp</a>
                 </div>
                 <div class="head3">
-                    <p>線上課程</p>
+                    <a href="#">線上課程</a>
                 </div>
                 <div class="head3">
-                    <p>短期課程</p>
+                    <a href="#">短期課程</a>
                 </div>
                 <div class="head3">
-                    <p>專欄文章</p>
+                    <a href="#">專欄文章</a>
                 </div>
                 <div class="head3">
-                    <p>最新消息</p>
+                    <a href="#">最新消息</a>
                 </div>
             </div>
         </div>
-        
+    </div>    
 
         <style>
-            .wrap2 {
+        .wrap2 {
             width: 1440px;
             margin: auto;
             display: flex;
@@ -119,13 +128,22 @@
             position: absolute;
             width: 1000px;
             margin: 100px 800px 0px 200px;
-            border: 1px solid red;
+            /* border: 1px solid red; */
         }
         .wrap2 .title h1 {
+            font-size: 50px;
+            color: #fff;
+            padding: 20px 0;
+            font-weight: bold;
         }
         .wrap2 .title p {
+            font-size: 20px;
+            color: #fff;
+            padding-bottom: 40px;
         }
-        .wrap2 .title .img button {
+        .wrap2 .title a {
+            font-size: 20px;
+            padding: 15px;
         }
         .wrap2 a {
             width: 100px;
@@ -147,33 +165,36 @@
                 <h1>五倍學習，突破你的可能性</h1>
                 <p>掌握實戰經驗，從初新素人到業界接軌，讓專業師資為你重新定義程式教育。</p>
                 <a href="#">立即選課</a>
-                </div>
             </div>
         </div>
+        
 
 
         <style>
-            .wrap3 {
-            border: 1px solid red;
+        .wrap3 {
             width: 1440px;
-            margin: auto;
+            margin: 40px auto;
+            /* border: 1px solid red; */
         }
         .wrap3 h1 {
-            width: 300px;
-            margin: auto;
-        }
-        .wrap3 p {
-            width: 300px;
-            margin: auto;
+            width: 600px;
+            margin: 10px auto;
+            font-size: 28px;
+            text-align: center;
+            /* border: 1px solid red; */
         }
         .wrap3 .p-line {
             border-bottom: 2px solid #f00;
-            width: 30px;
+            width: 50px;
             height: 0;
             color: #fff0;
             margin: auto;
         }
         .wrap3 .p-p {
+            width: 600px;
+            margin: 20px auto;
+            font-size: 18px;
+            text-align: center;
         }
 
         </style>
@@ -188,22 +209,32 @@
         <style>
         .wrap4 {
             width: 1440px;
-            margin: auto;
+            margin: 30px auto;
             display: flex;
             justify-content: space-around;
         }
         .wrap4 .how {
             width: 400px;
-            border: 1px solid red;
+            /* border: 1px solid red; */
             text-align: center;
         }
         .wrap4 img {
-            width: auto;
+            width: 200px;
+            height: 200px;
         }
         .wrap4 h1 {
+            width: 300px;
+            margin: 10px auto;
+            font-size: 20px;
+            font-weight: bold;
+            /* border: 1px solid red; */
         }
         .wrap4 p {
-        }</style>
+            width: 400px;
+            margin: 10px auto;
+            font-size: 16px;
+        }
+        </style>
 
         <div class="wrap4">
             <div class="how">
@@ -232,43 +263,61 @@
 <style>
     .wrap-mid-bgc {
             background-color: #fed;
+            width: 1440px;
+            margin: auto;
+            padding: 60px 0;
         }
         .wrap5 {
             display: flex;
             flex-wrap: wrap;
             width: 1440px;
             margin: auto;
-            border: 1px solid red;
+            /* border: 1px solid red; */
         }
         .wrap5 h1 {
-            width: 800px;
-            margin: auto;
+            width: 1400px;
+            margin: 20px auto 0px ;
+            padding-left: 100px;
+            font-size: 26px;
+            font-weight: bold;
+            /* border: 1px solid red; */
+        }
+        .wrap5 .p-line {
+            border-bottom: 2px solid #f00;
+            width: 50px;
+            height: 0;
+            color: #fff0;
+            margin-left: 100px;
         }
         .wrap5 p {
-            width: 800px;
-            margin: auto;
+            width: 1400px;
+            margin: 10px auto;
+            font-size: 18px;
+            margin-left: 100px;
         }
 </style>
 
     <div class="wrap-mid-bgc">
         <div class="wrap5">
             <h1>講師陣容</h1>
+            <p class="p-line">123</p>
             <p>我們的講師長期專注於網站開發技術領域，透過研討會、社群演講及授課方式將技術知識分享給更多人知道，讓更多人了解各個技術的美好之處。</p>
         </div>
 
 
         <style>
-            .wrap6 {
+        .wrap6 {
             width: 1440px;
             display: flex;
             flex-wrap: wrap;
+            justify-content: space-evenly;
             margin: auto;
-            border: 1px solid red;
+            /* border: 1px solid red; */
         }
         .wrap6 .teacher {
-            width: 500px;
-            margin: auto;
-            border: 1px solid red;
+            width: 680px;
+            margin: 10px auto;
+            /* border: 1px solid red; */
         }
         .wrap6 .teacher .photo {
             width: 150px;
@@ -281,12 +330,32 @@
         .wrap6 .up {
             display: flex;
         }
-        .wrap6 .middle {}
+        .wrap6 .up .p-line {
+            border-bottom: 2px solid #f00;
+            width: 40px;
+            height: 0;
+            color: #fff0;
+        }
+        .wrap6 .up .icon {
+            margin: 5px 0 5px 10px;
+        }
+        .wrap6 .up p {
+            margin: 5px 0 5px 10px;
+        }
+        .wrap6 .middle p{
+            padding: 10px 0 10px 0;
+        }
         .wrap6 .buttom {}
         .wrap6 .buttom .other{
             display: flex;
+            margin: 10px;
         }
-        .wrap6 .buttom .botton {
+        .wrap6 .buttom .button {
+            border: 1px solid #f00;
+            color: #f00;
+            border-radius: 10%;
+            padding: 5px;
+            margin: 10px;
         }
         .wrap6 .buttom p{
         }
@@ -300,6 +369,7 @@
                     </div>
                     <div>
                         <p>HTML / CSS 講師</p>
+                        <p class="p-line">123</p>
                         <p>李建杭 (Amos Lee)</p>
                         <img class="icon" src="https://picsum.photos/id/450/50/50" alt="">
                         <img class="icon" src="https://picsum.photos/id/450/50/50" alt="">
@@ -329,6 +399,7 @@
                     </div>
                     <div>
                         <p>Ruby / Git 講師</p>
+                        <p class="p-line">123</p>
                         <p>高見龍 (Eddie Kao)</p>
                         <img class="icon" src="https://picsum.photos/id/450/50/50" alt="">
                         <img class="icon" src="https://picsum.photos/id/450/50/50" alt="">
@@ -358,6 +429,7 @@
                     </div>
                     <div>
                         <p>Vue / JavaScript 講師</p>
+                        <p class="p-line">123</p>
                         <p>許國政 (Kuro Hsu)</p>
                         <img class="icon" src="https://picsum.photos/id/450/50/50" alt="">
                         <img class="icon" src="https://picsum.photos/id/450/50/50" alt="">
@@ -386,6 +458,7 @@
                     </div>
                     <div>
                         <p>React 講師</p>
+                        <p class="p-line">123</p>
                         <p>廖珀均 (奶綠茶)</p>
                         <img class="icon" src="https://picsum.photos/id/450/50/50" alt="">
                         <img class="icon" src="https://picsum.photos/id/450/50/50" alt="">
@@ -419,47 +492,70 @@
             width: 1440px;
             padding: 50px 0;
             margin: auto;
-            border-top: 1px solid red;
+            /* border-top: 1px solid red; */
         }
         .wrap7 .media-title{
             display: flex;
             flex-wrap: wrap;
             margin: auto;
-            border: 1px solid red;
+            /* border: 1px solid red; */
         }
         .wrap7 .media-title h1{
             width: 1440px;
             text-align: center;
+            font-size: 32px;
+            font-weight: bold;
         }
-        .wrap7 .media-title p{
-            width: 100px;
-            margin:auto;
-            text-align: center;
-            border-top: 1px solid red;
+        .wrap7 .media-title .p-line {
+            border-bottom: 2px solid #f00;
+            width: 50px;
+            height: 0;
+            color: #fff0;
+            margin: 5px auto;
         }
         .wrap7 .wrap7-1 {
             display: flex;
             flex-wrap: wrap;
-            margin: auto;
-            border: 1px solid red;
+            margin: 20px auto;
+            /* border: 1px solid red; */
         }
         .wrap7 .content {
             width: 500px;
-            margin: auto;
-            border: 1px solid red;
+            margin: 20px ;
+            /* border: 1px solid red; */
+        }
+        .wrap7 .content a {
+            font-size: 22px;
+            text-decoration: none;
+            margin: 10px 0;
+            color: #000;
+            font-weight: bold;
+        }
+        .wrap7 .content p {
+            margin: 10px 0;
+            color: #777;
         }
         .wrap7 .more {
-            width: 100px;
+            width: 200px;
             margin: auto;
             text-align: center;
-            border: 1px solid red;
+            /* border: 1px solid red; */
+        }
+        .wrap7 .more a {
+            text-decoration: none;
+            color: #fff;
+            background-color: #f00;
+            font-size: 20px;
+            padding: 15px;
+            border-radius: 15%;
+            /* border: 1px solid red; */
         }
         </style>
         
         <div class="wrap7">
         <div class="media-title">
             <h1>媒體報導</h1>
-            <p>底線</p>
+            <p class="p-line">123</p>
         </div>
         <div class="wrap7-1">
             <div class="content">
@@ -501,8 +597,11 @@
 
 
     <style>
-        .wrap-mid2-bgc {
+    .wrap-mid2-bgc {
         background-color: #113;
+        width: 1440px;
+        margin: auto;
+        padding: 60px 0;
     }
     .wrap8 {
         display: flex;
@@ -515,14 +614,36 @@
     }
     .wrap8 .short-class h1 {
         color: #fff;
+        font-size: 24px;
+        font-weight: bold;
+        margin: 10px 0;
+    }
+    .wrap8 .short-class .p-line {
+        border-bottom: 2px solid #f00;
+        width: 50px;
+        height: 0;
+        color: #fff0;
+        margin:  5px ;
     }
     .wrap8 .short-class p {
         color: #888;
+        margin: 20px 0;
     }
     .wrap8 .front-end-class{
         background-color: #c00;
         color: #fff;
         margin: 50px auto;
+    }
+    .wrap8 .front-end-class h1 {
+        color: #fff;
+        font-size: 24px;
+        font-weight: bold;
+        margin: 10px 0;
+    }
+    .wrap8 .front-end-class p {
+        background-color: #c00;
+        color: #fff;
+        margin: 20px auto;
     }
     .wrap8 .front-end-class a {
         text-decoration: none;
@@ -535,7 +656,7 @@
         <div class="wrap8">
             <div class="short-class">
                 <h1>短期實體課程</h1>
-                <p>紅線</p>
+                <p class="p-line">123</p>
                 <p>目標清晰的短期課程，針對單一技術所開設。適合在職進修的工程師、PM，或對網頁設計有興趣的你。</p>
             </div>
             <div class="front-end-class">
@@ -551,11 +672,11 @@
                 width: 1440px;
                 padding: 50px 0;
                 margin: auto;
-                border: 1px solid red;
+                /* border: 1px solid red; */
             }
             .wrap9 .title {
                 padding-left: 13px;
-                border: 1px solid red;
+                /* border: 1px solid red; */
             }
             .wrap9 .title h1{
                 color: #fff;
@@ -574,7 +695,7 @@
                 width: 120px;
                 height: 30px;
                 margin: auto;
-                border: 1px solid blue;
+                /* border: 1px solid blue; */
                 background-color: #f33;
             }
             .wrap9 .more a {
@@ -620,16 +741,26 @@
 <style>
     .wrap-mid3-bgc {
         background-color: #eee;
+        width: 1440px;
+        margin: auto;
+        padding: 60px 0;
     }
     .wrap10{
         width: 1440px;
         margin: auto;
         padding: 50px 0;
-        border: 1px solid red;
+        /* border: 1px solid red; */
     }
     .wrap10 .title h1 {
 
     }
+    .wrap10 .title .p-line {
+    border-bottom: 2px solid #f00;
+    width: 50px;
+    height: 0;
+    color: #fff0;
+    margin:  5px ;
+}
     .wrap10 .title p {
 
     }
@@ -647,7 +778,7 @@
         <div class="wrap10">
             <div class="title">
                 <h1>掌握自己的學習路徑</h1>
-                <p>紅線</p>
+                <p class="p-line">123</p>
                 <p>針對不同需求的學員，五倍規劃了多元且完整的學習路徑：從前端到後端，全方面的包套課程，與彈性的線上課程、假日班，任您自由選擇。</p>
             </div>
             <div class="all-class">
@@ -677,18 +808,28 @@
 <style>
     .wrap-mid4-bgc {
         background-color: #fff;
+        width: 1440px;
+        margin: auto;
+        padding: 60px 0;
     }
     .wrap11 {
         width: 1440px;
         margin: auto;
         padding: 50px 0;
-        border: 1px solid red;
+        /* border: 1px solid red; */
     }
     .wrap11 .title {
         width: 200px;
         margin: auto;
-        border: 1px solid red;
+        /* border: 1px solid red; */
     }
+    .wrap11 .title .p-line {
+    border-bottom: 2px solid #f00;
+    width: 50px;
+    height: 0;
+    color: #fff0;
+    margin:  5px auto;
+}
     .wrap11 .review-all {
         display: flex;
         justify-content: space-evenly;
@@ -696,7 +837,7 @@
     .wrap11 .review {
         display: flex;
         flex-wrap: wrap;
-        border: 1px solid red;
+        /* border: 1px solid red; */
         width: 330px;
         
     }
@@ -717,7 +858,7 @@
         <div class="wrap11">
             <div class="title">
                 <h1>在五倍，我們一起超越五倍</h1>
-                <p>紅線</p>
+                <p class="p-line">123</p>
             </div>
             <div class="review-all" >
                 <div class="review">
@@ -753,24 +894,31 @@
             width: 1440px;
             margin: auto;
             padding: 50px 0;
-            border: 1px solid red;
+            /* border: 1px solid red; */
         }
         .wrap12 .title {
             width: 200px;
             margin: auto;
-            border: 1px solid red;
+            /* border: 1px solid red; */
             text-align: center;
+        }
+        .wrap12 .title .p-line {
+            border-bottom: 2px solid #f00;
+            width: 50px;
+            height: 0;
+            color: #fff0;
+            margin:  5px auto;
         }
         .wrap12 .articla-all {
             width: 1440px;
             display: flex;
             justify-content: space-around;
-            border: 1px solid red;
+            /* border: 1px solid red; */
         }
         .wrap12 .article {
             display: flex;
             flex-wrap: wrap;
-            border: 1px solid red;
+            /* border: 1px solid red; */
             width: 440px;
         }
         .wrap12 .icon {
@@ -786,7 +934,7 @@
         <div class="wrap12">
             <div class="title">
                 <h1>精選文章</h1>
-                <p>紅線</p>
+                <p class="p-line">123</p>
             </div>
             <div class="articla-all">
                 <div class="article">
@@ -826,12 +974,14 @@
 <style>
     .wrap-btm-bgc {
         background-color: #223;
-        padding: 100px 0;
+        padding: 60px 0;
+        width: 1440px;
+        margin: auto;
     }
     .wrap13 {
         display: flex;
         width: 1440px;
-        border: 1px solid red;
+        /* border: 1px solid red; */
         margin: auto;
     }
     .wrap13 .info1 {
@@ -842,7 +992,7 @@
         flex-wrap: wrap;
         width: 1100px;
         margin: auto;
-        border: 1px solid red;
+        /* border: 1px solid red; */
     }
     .wrap13 .info2 {
         width: 350px;
@@ -869,13 +1019,9 @@
         width: 600px;
         margin: auto;
         text-align: center;
-        border: 1px solid red;
+        /* border: 1px solid red; */
     }
-    .icon3 {
-        width: 50px;
-        height: 50px;
-        
-    }
+    
 </style>
 
     <div class="wrap-btm-bgc">
@@ -933,15 +1079,18 @@
                 <img class="icon2" src="https://picsum.photos/id/450/250/250" alt="">
             </a> 
         </div>
-        <div>
-            <img class="icon3" src="https://picsum.photos/id/450/250/250" alt="">
-        </div>
+        
     </div>
 
 
     <style>
         .wrap-btm2-bgc {
+            width: 1440px;
+            margin: auto;
             background-color: #112;
+            display: flex;
+            padding: 20px 0;
+            position: relative;
         }
         .wrap-btm2-bgc img{
             width: 50px;
@@ -949,14 +1098,25 @@
         }
         .wrap-btm2-bgc .copright {
             color: #fff;
+            width: 1000px;
+            margin: auto;
             text-align: center;
-            padding: 10px 0;
+            /* border: 1px solid #f00; */
+        }
+        .wrap-btm2-bgc .icon3 {
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            top: 0;
+            right: 0;
         }
     </style>
 
     <div class="wrap-btm2-bgc">
         <p class="copright"> &copy; 2014 - 2021 五倍紅寶石程式資訊教育股份有限公司 (5xRuby Training Group CO., LTD) | 台北市短期補習班立案 第 7594 號 </p>
-        
+        <div>
+            <img class="icon3" src="https://picsum.photos/id/450/250/250" alt="">
+        </div>
     </div>
 </body>
 </html>
