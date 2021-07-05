@@ -14,8 +14,14 @@
             background-color: #ccc;
             /* justify-content: space-around; */
             flex-direction: row;
-            align-items: flex-start;
+
             /* 灰色區塊高度平均給剩下的空餘區塊，若2塊就/2，3塊就/3 */
+            align-items: flex-start;
+            
+
+            /* 控制物件在整個父層的空間 */
+            align-content: flex-end;
+            
         }
         .item {
             width: 170px;
