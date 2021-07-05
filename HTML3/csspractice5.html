@@ -12,7 +12,7 @@
             width: 600px;
             height: 600px;
             background-color: #ccc;
-            justify-content: space-around;
+            /* justify-content: space-around; */
             flex-direction: row;
 
             /* 灰色區塊高度平均給剩下的空餘區塊，若2塊就/2，3塊就/3 */
@@ -26,12 +26,19 @@
         .item {
             width: 170px;
             /* height: 100px; */
-            margin: 5px;
+            /* margin: 5px; */
             background-color: #fa0;
             font-size: 50px;
         }
-        .item:first-child {
-            height: 200px;
+        .item:nth-child(1) {
+            height: 140px;
+        }
+        .item:nth-child(2) {
+            height: 140px;
+            margin-left: auto;
+        }
+        .item:nth-child(3) {
+            height: 140px;
         }
     </style>
 </head>
