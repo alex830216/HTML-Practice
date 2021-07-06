@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="normalize.css">
+    <style>
+        .flag {
+            width: 50px;
+            height: 200px;
+        }
+        .txt {
+            /* height: 100%; */
+            padding: 30px 10px;
+            text-align: center;
+            background-color: #fa0;
+            color: #fff;
+        }
+        .flag::after {
+            content: "";
+            display: block;
+            width: 0;
+            height: 0;
+            border-right: 25px solid #000;
+            border-left: 25px solid #000;
+            /* border-top: 25px solid #000; */
+            border-bottom: 15px solid transparent;
+        }
+        </style>
+    
+</head>
+<body>
+    <div class="flag">
+        <div class="txt">87折</div>
+    </div>
+</body>
+</html>
