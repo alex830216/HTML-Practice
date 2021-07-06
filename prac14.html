@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="normalize.css">
+    <style>
+        p::before {
+            /* 一定要加content */
+            content: "before";
+            color: red;
+            /* 預設為inline */
+            display: block;
+        }
+        p::after {
+            content: "before";
+            color: red;
+        }
+    </style>
+    
+</head>
+<body>
+    <P>123123123</P>
+</body>
+</html>
