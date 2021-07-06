@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            width: 900px;
+            height: 900px;
+            background-color: #ccc;
+            background-size: 300px 200px;
+            background-image: url("0.jpg"),
+                              url("1.jpg"),
+                              url("2.jpg"),
+                              url("3.jpg");
+            background-repeat: no-repeat,
+                                no-repeat,
+                                no-repeat,
+                                repeat-x,;
+            background-position: left top,
+                                 right top,
+                                 right 30px bottom 50px,
+                                 left bottom;
+            background-size: contain;
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+    <img src="https://picsum.photos/300/200/?random=1">
+</body>
+</html>
