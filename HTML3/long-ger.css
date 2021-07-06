@@ -1,0 +1,10 @@
+.wrap {
+    width: 400px;
+}
+.wrap .item-top {
+    display: flex;
+}
+.wrap .pic img {
+    width: 200px;
+    height: 200px;
+}
