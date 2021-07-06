@@ -11,7 +11,7 @@
             width: 600px;
             margin: auto;
         }
-        .item {
+        .wrap .item {
             width: 658px;
             text-align: center;
             border: 1px solid red;
@@ -19,18 +19,21 @@
             margin: 20px;
             display: flex;
         }
-        .item .pic{
+        .wrap .item .pic{
             width: 50%;
             padding: 10px;
             box-sizing: border-box;
         }
-        .item .txt {
+        .wrap .item .txt {
             width: 50%;
             padding: 10px;
             box-sizing: border-box;
         }
-        .item img {
+        .wrap .item img {
             width: 100%;
+        }
+        .wrap .item:nth-child(even) {
+            flex-direction: row-reverse;
         }
     </style>
 </head>
