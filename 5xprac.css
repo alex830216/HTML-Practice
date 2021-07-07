@@ -1,0 +1,58 @@
+.head {
+    display: flex;
+    justify-content: space-between;
+    width: 1440px;
+    margin: 20px 5px;
+}
+.head a {
+    padding: 20px 10px;
+}
+
+/* 1================================= */
+
+.banner {
+    width: 1440px;
+    height: 600px;
+    background-image: url("870-1440x500.jpg");
+    background-size: cover;
+}
+.banner::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 100px solid transparent;
+    border-right: 1040px solid #fff;
+    /* border-bottom: 100px solid #fff; */
+    border-left: 400px solid #fff;
+}
+.banner .wrap {
+    width: 800px;
+    height: 100px;
+    padding: 100px 0px 300px 300px;
+    border: 1px solid red;
+}
+.banner .wrap .b {
+    color: #fff;
+}
+.banner .wrap h1 {
+    font-weight: bold;
+    font-size: 50px;
+}
+.banner .wrap p {
+    font-size: 16px;
+    padding: 20px 0 80px 0;
+}
+.banner .wrap a {
+    font-size: 16px;
+    padding: 20px;
+    background-color: #a00;
+    border-radius: 8px;
+}
+
+
+/* 2================================== */
+
+.fish {
+    width: 1440px;
+}
