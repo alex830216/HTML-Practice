@@ -11,9 +11,10 @@
         .box {
             width: 300px;
             height: 200px;
-            border: 10px solid red;
+            border: 1px solid red;
             position: relative;
             overflow: hidden;
+            margin: 30px;
         }
         .txt {
             position: absolute;
@@ -48,6 +49,35 @@
             left: 5px;
             padding: 5px;
         }
+        .label2 {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 50px;
+            height: 60px;
+            background-color: #aa0;
+
+            /* 忘記加的 */
+            text-align: center;
+            padding: 10px 0;
+        }
+        .label2::after {
+            
+            content: "";
+            display: block;
+            width: 0;
+            height: 0;
+            /* border-top: 50px solid #aa0; */
+            border-bottom: 15px solid transparent;
+            border-left: 25px solid #aa0;
+            border-right: 25px solid #aa0;
+
+            /* 忘記加的 */
+            position: absolute;
+            left: 0;
+            top: 100%;
+            
+        }
     </style>
 </head>
 <body>
@@ -62,6 +92,9 @@
         </div>
         <div class="label">
             <p>十倍蝦幣</p>
+        </div>
+        <div class="label2">
+            <p>6.6折</p>
         </div>
     </div>
     
