@@ -20,8 +20,15 @@
         .item32 {
             background-color: #f00;
             position: relative;
+            /* 全都設定的話left、top會優先於right、bottom */
             left: 50px;
             top: 250px;
+            right: 50px;
+            bottom: 50px;
+            z-index: 1;
+        }
+        .item50 {
+            z-index: 2;
         }
     </style>
 </head>
