@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* bgi寫法 */
+        /* p {
+            padding-left: 1em;
+            background-color: #ccc;
+            background-image: linear-gradient(0deg, red, red);
+            background-repeat: no-repeat;
+            background-size: 10px 10px;
+            background-position: 4px 4px;
+        } */
+
+        /* before寫法 */
+        p {
+            background-color: #ccc;
+            padding-left: 1em;
+            position: relative;
+        }
+        p::before {
+            content: "";
+            position: absolute;
+            width: 5px;
+            height: 5px;
+            background-color: #f00;
+            left: 5px;
+            top: 5px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque in, earum praesentium laborum nesciunt quam voluptas et porro accusantium quidem quod qui aut temporibus repellat perferendis! Dolorem dolorum perferendis doloribus, expedita quidem dicta pariatur, voluptate architecto fugiat harum, similique mollitia. Facilis, aut, ad iure excepturi saepe iste incidunt laudantium rem perferendis minus mollitia illum ullam tempora accusamus, nostrum possimus. Excepturi illum quia neque hic porro vel quos reprehenderit officia minima blanditiis cupiditate odit accusantium error veniam reiciendis, culpa quisquam nisi, modi in saepe illo velit iste eveniet quod! Nisi temporibus ipsum ipsam impedit eaque fugiat explicabo reprehenderit tenetur odit fugit.</p>
+</body>
+</html>
