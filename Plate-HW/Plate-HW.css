@@ -29,6 +29,15 @@
     color: white;
     letter-spacing: 0.1em;
     text-align: center;
+    background-color: #71B85F;
+}
+.header-top .nav-bar a::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    opacity: 0;
 }
 .header-top .nav-bar a:hover::after {
     content: "";
@@ -36,6 +45,8 @@
     width: 100%;
     height: 2px;
     background-color: #fff;
+    opacity: 1;
+    transition: .5s;
 }
 
 /* header-top ===================== */
