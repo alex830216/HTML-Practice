@@ -1,0 +1,146 @@
+/* header-start ================================= */
+.head {
+    width: 100%;
+    background-color: #fff;
+    padding: 25px 0;
+    position: fixed;
+    z-index: 1;
+}
+.head .parallel {
+    display: flex;
+    justify-content: space-between;
+}
+.head a {
+    text-decoration: none;
+    color: #000;
+    margin: 0 20px;
+}
+.head .picture a {
+    font-weight: bold;
+    font-size: 16px;
+}
+.head .picture a span:nth-child(4),
+.head .picture a span:nth-child(5) {
+    transition: .3s;
+}
+.head .picture a:hover span:nth-child(4),
+.head .picture a:hover span:nth-child(5) {
+    color: #f00;
+}
+.head .picture .fas {
+    color: #EB6359;
+}
+.head .text a {
+    font-size: 18px;
+    transition: .3s;
+    position: relative;
+}
+.head .text a:hover {
+    color: #f00;
+}
+.head .text a::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    height: 0;
+    border-bottom: 2px solid #f00;
+    left: 50%;
+    right: 50%;
+    transition: .3s;
+}
+.head .text a:hover::after {
+    left: 0;
+    right: 0;
+}
+.head .nav-bar {
+    text-align: center;
+}
+.head .picture a span:nth-child(5) {
+    display: none;
+}
+@media screen and (min-width: 768px) {
+    .head .picture a span:nth-child(5) {
+        display: inline;
+    }
+}
+/* header-end ================================= */
+.banner {
+    width: 100%;
+    height: 600px;
+    background-color: hsla(240deg, 80%, 10%, 0.5);
+    background-blend-mode: multiply;
+    background-image: url(banner-home-aca80ad097b4d77ffa3b82879b5d14a8.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    clip-path: polygon(0 0, 0 78%, 34% 100%, 100% 78%, 100% 0);
+}
+.banner .text {
+    padding: 180px 0 0 480px;
+    color: #fff;
+}
+.banner .text h1 {
+    font-size: 56px;
+    font-weight: bold;
+}
+.banner .text p {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+.banner .text a {
+    font-size: 20px;
+    color: #fff;
+    padding: 15px 25px;
+    text-decoration: none;
+    background-color: hsl(349, 100%, 54%);
+    border-radius: 5px;
+}
+.banner .text a:hover {
+    background-color: hsl(349, 100%, 35%);
+}
+/* banner-start ================================= */
+
+/* banner-end ================================= */
+
+
+
+/* provide-start ================================= */
+
+/* provide-end ================================= */
+
+
+
+/* teachers-start ================================= */
+
+/* teachers-end ================================= */
+
+
+
+
+
+
+
+
+/* header-start ================================= */
+
+/* header-end ================================= */
+
+
+
+/* class-start ================================= */
+/* 讓區塊向上移動可參考Day5 relative5xprac */
+
+/* class-end ================================= */
+
+
+
+/* header-start ================================= */
+
+/* header-end ================================= */
+
+
+
+/* header-start ================================= */
+
+/* header-end ================================= */
